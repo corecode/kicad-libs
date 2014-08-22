@@ -1,0 +1,46 @@
+PCBNEW-LibModule-V1  Mon 28 Oct 2013 12:15:29 AM CET
+# encoding utf-8
+Units mm
+$INDEX
+SJ-NC-1608
+$EndINDEX
+$MODULE SJ-NC-1608
+Po 0 0 0 15 526D9E89 00000000 ~~
+Li SJ-NC-1608
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.95 0.7 0.7 0 0.15 N V 21 N "SJ-NC-1608"
+T1 1.35 0 0.7 0.7 900 0.15 N V 21 N "VAL**"
+DS -0.75 -1.5 0.75 -1.5 0.05 25
+DS 0.75 -1.5 0.75 1.5 0.05 25
+DS 0.75 1.5 -0.75 1.5 0.05 25
+DS -0.75 1.5 -0.75 -1.5 0.05 25
+DS 0 -0.425 0 0.425 0.15 15
+DS -0.5 -0.15 -0.5 0.15 0.2 21
+DS 0.5 -0.15 0.5 0.15 0.2 21
+$PAD
+Sh "1" R 0.95 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00808000
+Ne 0 ""
+Po 0 -0.8
+$EndPAD
+$PAD
+Sh "2" R 0.95 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00808000
+Ne 0 ""
+Po 0 0.8
+$EndPAD
+$PAD
+Sh "" R 0.1 0.1 0 0 0
+Dr 0 0 0
+At HOLE N 00800000
+Ne 0 ""
+Po 0 0
+.SolderMask 0.65
+.LocalClearance 0.65
+$EndPAD
+$EndMODULE SJ-NC-1608
+$EndLIBRARY

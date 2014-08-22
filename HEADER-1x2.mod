@@ -1,0 +1,34 @@
+PCBNEW-LibModule-V1  Sun 27 Oct 2013 05:08:19 PM CET
+# encoding utf-8
+Units mm
+$INDEX
+HEADER-1x2
+$EndINDEX
+$MODULE HEADER-1x2
+Po 0 0 0 15 526D3A4C 00000000 ~~
+Li HEADER-1x2
+Sc 0
+AR 
+Op 0 0 0
+T0 3.81 0 1 1 900 0.15 N I 21 N "HEADER-1x2"
+T1 0 2.54 1 1 0 0.15 N V 21 N "VAL**"
+DS -2.5 -1.5 2.5 -1.5 0.2 21
+DS 2.5 -1.5 2.5 1.5 0.2 21
+DS 2.5 1.5 -2.5 1.5 0.2 21
+DS -2.5 1.5 -2.5 -1.5 0.2 21
+$PAD
+Sh "1" R 1.8 2.5 0 0 0
+Dr 1 0 0
+At STD N 00C0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" O 1.8 2.5 0 0 0
+Dr 1 0 0
+At STD N 00C0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$EndMODULE HEADER-1x2
+$EndLIBRARY

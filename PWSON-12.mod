@@ -1,0 +1,179 @@
+PCBNEW-LibModule-V1  Thu 24 Oct 2013 10:28:22 PM CEST
+# encoding utf-8
+Units mm
+$INDEX
+PWSON-12
+$EndINDEX
+$MODULE PWSON-12
+Po 0 0 0 15 526982E3 00000000 ~~
+Li PWSON-12
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.475 0.7 0.7 0 0.15 N V 21 N "PWSON-12"
+T1 2.225 0 0.7 0.7 900 0.15 N I 21 N "VAL**"
+DS -0.625 1.7 -1.5 1.7 0.2 21
+DS 0.625 1.7 1.5 1.7 0.2 21
+DS 0.625 -1.7 1.5 -1.7 0.2 21
+DS -0.625 -1.7 -1.5 -1.7 0.2 21
+DS 1.65 -1.95 1.65 1.95 0.05 25
+DS 1.65 1.95 -1.65 1.95 0.05 25
+DS -1.65 1.95 -1.65 -1.95 0.05 25
+DS -1.65 -1.95 1.65 -1.95 0.05 25
+$PAD
+Sh "1" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.025 -1.25
+$EndPAD
+$PAD
+Sh "2" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.025 -0.75
+$EndPAD
+$PAD
+Sh "3" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.025 -0.25
+$EndPAD
+$PAD
+Sh "4" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.025 0.25
+$EndPAD
+$PAD
+Sh "5" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.025 0.75
+$EndPAD
+$PAD
+Sh "6" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.025 1.25
+$EndPAD
+$PAD
+Sh "7" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.025 1.25
+$EndPAD
+$PAD
+Sh "8" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.025 0.75
+$EndPAD
+$PAD
+Sh "9" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.025 0.25
+$EndPAD
+$PAD
+Sh "10" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.025 -0.25
+$EndPAD
+$PAD
+Sh "11" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.025 -0.75
+$EndPAD
+$PAD
+Sh "12" R 0.28 0.75 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.025 -1.25
+$EndPAD
+$PAD
+Sh "PAD" R 2 0.9 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.ZoneConnection 2
+$EndPAD
+$PAD
+Sh "PAD" R 0.7 0.25 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -1.35
+.ZoneConnection 2
+$EndPAD
+$PAD
+Sh "PAD" R 0.7 0.25 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -1.35
+.ZoneConnection 2
+$EndPAD
+$PAD
+Sh "PAD" R 0.7 0.25 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 1.35
+.ZoneConnection 2
+$EndPAD
+$PAD
+Sh "PAD" R 0.7 0.25 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 1.35
+.ZoneConnection 2
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 2700
+Dr 0.3 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po 0 0
+.ZoneConnection 2
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 2700
+Dr 0.3 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po 0 0.7
+.ZoneConnection 2
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 2700
+Dr 0.3 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po 0 -0.7
+.ZoneConnection 2
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 2700
+Dr 0 0 0
+At SMD N 00200000
+Ne 0 ""
+Po -1.85 -1.25
+$EndPAD
+$EndMODULE PWSON-12
+$EndLIBRARY

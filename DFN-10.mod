@@ -1,0 +1,99 @@
+PCBNEW-LibModule-V1  Thu 24 Oct 2013 10:27:55 PM CEST
+# encoding utf-8
+Units mm
+$INDEX
+DFN-10
+$EndINDEX
+$MODULE DFN-10
+Po 0 0 0 15 526982C8 00000000 ~~
+Li DFN-10
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.1 0.7 0.7 0 0.15 N V 21 N "DFN-10"
+T1 2.225 0 0.7 0.7 900 0.15 N I 21 N "VAL**"
+DS 1.65 -1.25 1.65 1.25 0.05 25
+DS 1.65 1.25 -1.65 1.25 0.05 25
+DS -1.65 1.25 -1.65 -1.25 0.05 25
+DS -1.65 -1.25 1.65 -1.25 0.05 25
+DS 1 1.25 -1 1.25 0.2 21
+DS -1 -1.25 1 -1.25 0.2 21
+$PAD
+Sh "" C 0.5 0.5 0 0 2700
+Dr 0 0 0
+At SMD N 00200000
+Ne 0 ""
+Po -1.9 -0.8
+$EndPAD
+$PAD
+Sh "1" R 0.8 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -0.8
+$EndPAD
+$PAD
+Sh "2" R 0.8 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -0.4
+$EndPAD
+$PAD
+Sh "3" R 0.8 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "4" R 0.8 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 0.4
+$EndPAD
+$PAD
+Sh "5" R 0.8 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 0.8
+$EndPAD
+$PAD
+Sh "6" R 0.8 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0.8
+$EndPAD
+$PAD
+Sh "7" R 0.8 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0.4
+$EndPAD
+$PAD
+Sh "8" R 0.8 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0
+$EndPAD
+$PAD
+Sh "9" R 0.8 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 -0.4
+$EndPAD
+$PAD
+Sh "10" R 0.8 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 -0.8
+$EndPAD
+$EndMODULE DFN-10
+$EndLIBRARY
