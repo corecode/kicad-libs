@@ -1,0 +1,262 @@
+PCBNEW-LibModule-V1  Thu 06 Mar 2014 01:35:32 PM CET
+# encoding utf-8
+Units mm
+$INDEX
+QFN-32-5x5
+$EndINDEX
+$MODULE QFN-32-5x5
+Po 0 0 0 15 53186B8E 00000000 ~~
+Li QFN-32-5x5
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1 0.81 0.81 0 0.15 N V 21 N "QFN-32-5x5"
+T1 0 1 0.81 0.81 0 0.15 N V 21 N "VAL**"
+DS -2.5 -2.15 -2.5 -2.5 0.15 21
+DS -2.15 -2.5 -2.5 -2.5 0.15 21
+DS -2.5 2.15 -2.5 2.5 0.15 21
+DS -2.15 2.5 -2.5 2.5 0.15 21
+DS 2.5 -2.15 2.5 -2.5 0.15 21
+DS 2.15 -2.5 2.5 -2.5 0.15 21
+DS 2.5 2.15 2.5 2.5 0.15 21
+DS 2.15 2.5 2.5 2.5 0.15 21
+DS -2.5 -2.15 -2.15 -2.5 0.15 21
+DS -2.5 -2.15 -2.9 -2.15 0.15 21
+DC -3.6 -1.75 -3.475 -1.75 0.25 21
+DS -3.15 -3.15 -3.15 3.15 0.05 25
+DS -3.15 3.15 3.15 3.15 0.05 25
+DS 3.15 3.15 3.15 -3.15 0.05 25
+DS 3.15 -3.15 -3.15 -3.15 0.05 25
+$PAD
+Sh "PAD" R 3.3 3.3 0 0 0
+Dr 0 0 0
+At SMD N 00808000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 -1.75
+$EndPAD
+$PAD
+Sh "2" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 -1.25
+$EndPAD
+$PAD
+Sh "3" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 -0.75
+$EndPAD
+$PAD
+Sh "4" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 -0.25
+$EndPAD
+$PAD
+Sh "5" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 0.25
+$EndPAD
+$PAD
+Sh "6" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 0.75
+$EndPAD
+$PAD
+Sh "7" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 1.25
+$EndPAD
+$PAD
+Sh "8" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 1.75
+$EndPAD
+$PAD
+Sh "9" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.75 2.5
+$EndPAD
+$PAD
+Sh "10" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 2.5
+$EndPAD
+$PAD
+Sh "11" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 2.5
+$EndPAD
+$PAD
+Sh "12" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 2.5
+$EndPAD
+$PAD
+Sh "13" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 2.5
+$EndPAD
+$PAD
+Sh "14" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 2.5
+$EndPAD
+$PAD
+Sh "15" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 2.5
+$EndPAD
+$PAD
+Sh "16" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.75 2.5
+$EndPAD
+$PAD
+Sh "17" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 1.75
+$EndPAD
+$PAD
+Sh "18" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 1.25
+$EndPAD
+$PAD
+Sh "19" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 0.75
+$EndPAD
+$PAD
+Sh "20" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 0.25
+$EndPAD
+$PAD
+Sh "21" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 -0.25
+$EndPAD
+$PAD
+Sh "22" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 -0.75
+$EndPAD
+$PAD
+Sh "23" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 -1.25
+$EndPAD
+$PAD
+Sh "24" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 -1.75
+$EndPAD
+$PAD
+Sh "25" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.75 -2.5
+$EndPAD
+$PAD
+Sh "26" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 -2.5
+$EndPAD
+$PAD
+Sh "27" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -2.5
+$EndPAD
+$PAD
+Sh "28" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -2.5
+$EndPAD
+$PAD
+Sh "29" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -2.5
+$EndPAD
+$PAD
+Sh "30" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -2.5
+$EndPAD
+$PAD
+Sh "31" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -2.5
+$EndPAD
+$PAD
+Sh "32" R 0.8 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.75 -2.5
+$EndPAD
+$EndMODULE QFN-32-5x5
+$EndLIBRARY

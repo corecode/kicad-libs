@@ -1,0 +1,133 @@
+PCBNEW-LibModule-V1  Tue 18 Mar 2014 01:31:10 PM CET
+# encoding utf-8
+Units mm
+$INDEX
+HUSON-12
+$EndINDEX
+$MODULE HUSON-12
+Po 0 0 0 15 53262DD7 00000000 ~~
+Li HUSON-12
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 0.81 0.81 0 0.15 N V 21 N "HUSON-12"
+T1 0 0 0.81 0.81 0 0.15 N I 21 N "VAL**"
+DS 1.36 -1.65 1.36 1.65 0.05 25
+DS 1.36 1.65 -1.36 1.65 0.05 25
+DS -1.36 1.65 -1.36 -1.65 0.05 25
+DS -1.36 -1.65 1.36 -1.65 0.05 25
+DS 1.36 -0.5 1.36 0.5 0.15 21
+DS -1.36 -0.5 -1.36 0.5 0.15 21
+DS -1.85 2.15 -2.6 3.1 0.15 21
+DS -1.85 2.15 -2.8 2.9 0.15 21
+DS -2.875 2.825 -2.525 3.175 0.15 21
+DS -2.525 3.175 -1.85 2.15 0.15 21
+DS -1.85 2.15 -2.875 2.825 0.15 21
+DS -1.85 2.15 -2.7 3 0.15 21
+$PAD
+Sh "1" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 0.9
+$EndPAD
+$PAD
+Sh "2" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.6 0.9
+$EndPAD
+$PAD
+Sh "3" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.2 0.9
+$EndPAD
+$PAD
+Sh "4" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.2 0.9
+$EndPAD
+$PAD
+Sh "5" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.6 0.9
+$EndPAD
+$PAD
+Sh "6" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0.9
+$EndPAD
+$PAD
+Sh "7" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 -0.9
+$EndPAD
+$PAD
+Sh "8" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.6 -0.9
+$EndPAD
+$PAD
+Sh "9" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.2 -0.9
+$EndPAD
+$PAD
+Sh "10" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.2 -0.9
+$EndPAD
+$PAD
+Sh "11" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.6 -0.9
+$EndPAD
+$PAD
+Sh "12" R 0.22 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -0.9
+$EndPAD
+$PAD
+Sh "PAD" R 2.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00808000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" R 0.4 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00040000
+Ne 0 ""
+Po -0.55 0
+$EndPAD
+$PAD
+Sh "" R 0.4 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00040000
+Ne 0 ""
+Po 0.55 0
+$EndPAD
+$EndMODULE HUSON-12
+$EndLIBRARY

@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.3  Date: Thu 06 Mar 2014 10:37:38 PM CET
+#encoding utf-8
+#
+# TEST
+#
+DEF TEST TST 0 40 N Y 1 F N
+F0 "TST" -20 30 30 H V L CNN
+F1 "TEST" -100 0 40 H V R CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+P 5 0 1 0  -50 40  -90 0  -50 -40  -10 0  -50 40 N
+X ~ 1 50 0 60 L 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

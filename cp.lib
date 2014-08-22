@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3  Date: Sun 05 Jan 2014 04:38:41 PM CET
+#encoding utf-8
+#
+# CP
+#
+DEF CP C 0 40 N N 1 F N
+F0 "C" 25 25 30 H V L CNN
+F1 "CP" 25 -25 30 H V L CNN
+F2 "~" -100 50 60 H V C CNN
+F3 "~" -100 50 60 H V C CNN
+DRAW
+T 0 15 30 15 0 0 1 +  Normal 0 C C
+S -30 5 30 15 0 1 0 N
+P 2 0 1 0  30 -10  -30 -10 N
+X ~ 1 0 50 35 D 50 50 1 1 P
+X ~ 2 0 -50 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

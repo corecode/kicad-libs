@@ -1,0 +1,210 @@
+PCBNEW-LibModule-V1  Tue 18 Mar 2014 01:54:50 PM CET
+# encoding utf-8
+Units mm
+$INDEX
+QFN-24-4x4
+$EndINDEX
+$MODULE QFN-24-4x4
+Po 0 0 0 15 532841EE 00000000 ~~
+Li QFN-24-4x4
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1 0.81 0.81 0 0.15 N V 21 N "QFN-24-4x4"
+T1 0 1 0.81 0.81 0 0.15 N V 21 N "VAL**"
+DS -2 -1.64 -2 -2 0.15 21
+DS -1.64 -2 -2 -2 0.15 21
+DS -2 1.64 -2 2 0.15 21
+DS -1.64 2 -2 2 0.15 21
+DS 2 -1.64 2 -2 0.15 21
+DS 1.64 -2 2 -2 0.15 21
+DS 2 1.64 2 2 0.15 21
+DS 1.64 2 2 2 0.15 21
+DS -2 -1.64 -1.64 -2 0.15 21
+DS -2.9 -1.75 -3.65 -2.7 0.15 21
+DS -2.9 -1.75 -3.85 -2.5 0.15 21
+DS -3.925 -2.425 -3.575 -2.775 0.15 21
+DS -3.575 -2.775 -2.9 -1.75 0.15 21
+DS -2.9 -1.75 -3.925 -2.425 0.15 21
+DS -2.9 -1.75 -3.75 -2.6 0.15 21
+DS -2.65 -2.65 -2.65 2.65 0.05 25
+DS -2.65 2.65 2.65 2.65 0.05 25
+DS 2.65 2.65 2.65 -2.65 0.05 25
+DS 2.65 -2.65 -2.65 -2.65 0.05 25
+$PAD
+Sh "FLAG" R 2.5 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00808000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -1.25
+$EndPAD
+$PAD
+Sh "2" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -0.75
+$EndPAD
+$PAD
+Sh "3" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -0.25
+$EndPAD
+$PAD
+Sh "4" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 0.25
+$EndPAD
+$PAD
+Sh "5" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 0.75
+$EndPAD
+$PAD
+Sh "6" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 1.25
+$EndPAD
+$PAD
+Sh "7" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 2
+$EndPAD
+$PAD
+Sh "8" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 2
+$EndPAD
+$PAD
+Sh "9" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 2
+$EndPAD
+$PAD
+Sh "10" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 2
+$EndPAD
+$PAD
+Sh "11" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 2
+$EndPAD
+$PAD
+Sh "12" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 2
+$EndPAD
+$PAD
+Sh "13" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 1.25
+$EndPAD
+$PAD
+Sh "14" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 0.75
+$EndPAD
+$PAD
+Sh "15" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 0.25
+$EndPAD
+$PAD
+Sh "16" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -0.25
+$EndPAD
+$PAD
+Sh "17" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -0.75
+$EndPAD
+$PAD
+Sh "18" R 0.8 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -1.25
+$EndPAD
+$PAD
+Sh "19" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 -2
+$EndPAD
+$PAD
+Sh "20" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -2
+$EndPAD
+$PAD
+Sh "21" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -2
+$EndPAD
+$PAD
+Sh "22" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -2
+$EndPAD
+$PAD
+Sh "23" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -2
+$EndPAD
+$PAD
+Sh "24" R 0.8 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -2
+$EndPAD
+$EndMODULE QFN-24-4x4
+$EndLIBRARY

@@ -1,18 +1,19 @@
-EESchema-LIBRARY Version 2.3  Date: Thu 24 Oct 2013 09:33:04 PM CEST
+EESchema-LIBRARY Version 2.3  Date: Sun 05 Jan 2014 04:34:01 PM CET
 #encoding utf-8
 #
 # C
 #
 DEF C C 0 40 N N 1 F N
-F0 "C" 100 0 40 H V L CNN
-F1 "C" 50 -100 40 H V L CNN
+F0 "C" 25 25 30 H V L CNN
+F1 "C" 25 -25 30 H V L CNN
 F2 "~" -100 50 60 H V C CNN
 F3 "~" -100 50 60 H V C CNN
 DRAW
-S -60 -10 60 -30 0 1 0 F
-S -60 10 60 30 0 1 0 F
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
+C -15 25 3 0 1 0 N
+P 2 0 1 0  30 -10  -30 -10 N
+P 2 0 1 0  30 10  -30 10 N
+X ~ 1 0 50 40 D 50 50 1 1 P
+X ~ 2 0 -50 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
