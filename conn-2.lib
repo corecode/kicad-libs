@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# CONN-2
+#
+DEF CONN-2 J 0 40 Y Y 1 F N
+F0 "J" 250 50 40 H V L CNN
+F1 "CONN-2" 250 -50 40 H V L CNN
+F2 "" 100 -200 60 H V C CNN
+F3 "" 100 -200 60 H V C CNN
+DRAW
+S 150 100 200 -100 0 1 0 N
+X ~ 1 0 50 150 R 50 50 1 1 P
+X ~ 2 0 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
