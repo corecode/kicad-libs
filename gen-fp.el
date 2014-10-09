@@ -1,5 +1,6 @@
 (defconst fp-params
   '((:name QFP-144 :type QFP :pins 144 :width 21.4 :pitch 0.5 :pad-size-x 1.5 :pad-size-y 0.3 :body-width 20.0)
+    (:name QFN-48-6x6 :type QFN :pins 48 :width 6.0 :pitch 0.4 :pad-size-x 0.8 :pad-size-y 0.2 :body-width 6.0 :flag-width 4.8 :shape oval)
     (:name QFN-32-5x5 :type QFN :pins 32 :width 5.0 :pitch 0.5 :pad-size-x 0.8 :pad-size-y 0.3 :body-width 5.0 :flag-width 3.8 :shape oval)
     (:name QFN-24-4x4 :type QFN :pins 24 :width 4.0 :pitch 0.5 :pad-size-x 0.8 :pad-size-y 0.3 :body-width 4.0 :flag-width 2.25 :shape oval)
     (:name VBGA60 :type BGA :pins 60 :width-x 6.4 :width-y 7.2 :pitch 0.8 :pad-size 0.35 :body-width-x 8.0 :body-width-y 9.0 :pins-x 9 :gap-x (4 6) :courtyard 1.0)))
