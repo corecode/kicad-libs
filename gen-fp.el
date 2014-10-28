@@ -45,7 +45,8 @@
     `(pad ,(+ num 1) smd ,shape
           (at ,x ,y ,angle)
           (size ,pad-size-x ,pad-size-y)
-          (layers F.Cu F.Paste F.Mask))))
+          (layers F.Cu F.Paste F.Mask)
+          (zone_connect 0))))
 
 (defun fp-plot-corner (in-x in-y out-x out-y xo yo)
   `((fp_line (start ,(funcall xo out-x) ,(funcall yo in-y))
@@ -79,6 +80,29 @@
     (fp_line (start ,(+ tip-x -0.675) ,(+ tip-y -1.025)) (end ,tip-x ,tip-y) (layer F.SilkS) (width 0.15))
     (fp_line (start ,tip-x ,tip-y) (end ,(+ tip-x -1.025) ,(+ tip-y -0.675)) (layer F.SilkS) (width 0.15))
     (fp_line (start ,tip-x ,tip-y) (end ,(+ tip-x -0.85) ,(+ tip-y -0.85)) (layer F.SilkS) (width 0.15))))
+
+(defun fp-plot-flag (attrs)
+  (let* ((via-width (- (plist-get attrs :flag-width) 0.15 0.15))
+         (via-max (floor (/ via-width 1.2)))
+         (via-start (* (/ via-max 2.0) 1.2))
+         (vias (loop for x from 0 to via-max
+                     for xpos = (- (* x 1.2) via-start)
+                     append
+                     (loop for y from 0 to via-max
+                           for ypos = (- (* y 1.2) via-start)
+                           collect
+                           `(pad FLAG thru_hole circle
+                                 (at ,xpos ,ypos)
+                                 (size 0.3 0.3)
+                                 (drill 0.3)
+                                 (layers *.Cu)
+                                 (zone_connect 2)))))
+         (copper `(pad FLAG smd rect
+                       (at 0 0)
+                       (size ,(plist-get attrs :flag-width) ,(plist-get attrs :flag-width))
+                       (layers F.Cu F.Mask)
+                       (zone_connect 0))))
+    (cons copper vias)))
 
 (defun fp-qf-header (attrs)
   (let* ((font-data '((layer F.SilkS)
@@ -121,10 +145,9 @@
       ,@(fp-plot-courtyard courtyard-edge courtyard-edge)
       ;; optional flag
       ,@(when (eq 'QFN (plist-get attrs :type))
-          `((pad FLAG smd rect (at 0 0) (size ,(plist-get attrs :flag-width) ,(plist-get attrs :flag-width))
-                 (layers F.Cu F.Mask))
-            ;; XXX paste missing
-            )))))
+          (fp-plot-flag attrs)
+          ;; XXX paste missing
+          ))))
 
 (defun fp-bga-header (attrs)
   (let* ((font-data '((layer F.SilkS)
