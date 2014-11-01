@@ -1,8 +1,8 @@
 (defconst fp-params
   '((:name QFP-144 :type QFP :pins 144 :width 21.4 :pitch 0.5 :pad-size-x 1.5 :pad-size-y 0.3 :body-width 20.0)
-    (:name QFN-48-6x6 :type QFN :pins 48 :width 6.0 :pitch 0.4 :pad-size-x 0.8 :pad-size-y 0.2 :body-width 6.0 :flag-width 4.8 :shape oval)
-    (:name QFN-32-5x5 :type QFN :pins 32 :width 5.0 :pitch 0.5 :pad-size-x 0.8 :pad-size-y 0.3 :body-width 5.0 :flag-width 3.8 :shape oval)
-    (:name QFN-24-4x4 :type QFN :pins 24 :width 4.0 :pitch 0.5 :pad-size-x 0.8 :pad-size-y 0.3 :body-width 4.0 :flag-width 2.25 :shape oval)
+    (:name QFN-48-6x6 :type QFN :pins 48 :width 6.0 :pitch 0.4 :pad-size-x 0.8 :pad-size-y 0.2 :body-width 6.0 :flag-width 4.8 :shape oval :flag-paste-ratio 0.5)
+    (:name QFN-32-5x5 :type QFN :pins 32 :width 5.0 :pitch 0.5 :pad-size-x 0.8 :pad-size-y 0.3 :body-width 5.0 :flag-width 3.8 :shape oval :flag-paste-ratio 0.5)
+    (:name QFN-24-4x4 :type QFN :pins 24 :width 4.0 :pitch 0.5 :pad-size-x 0.8 :pad-size-y 0.3 :body-width 4.0 :flag-width 2.25 :shape oval :flag-paste-ratio 0.5)
     (:name VBGA60 :type BGA :pins 60 :width-x 6.4 :width-y 7.2 :pitch 0.8 :pad-size 0.35 :body-width-x 8.0 :body-width-y 9.0 :pins-x 9 :gap-x (4 6) :courtyard 1.0)))
 
 (defconst fp-type-params
@@ -81,6 +81,36 @@
     (fp_line (start ,tip-x ,tip-y) (end ,(+ tip-x -1.025) ,(+ tip-y -0.675)) (layer F.SilkS) (width 0.15))
     (fp_line (start ,tip-x ,tip-y) (end ,(+ tip-x -0.85) ,(+ tip-y -0.85)) (layer F.SilkS) (width 0.15))))
 
+(defun fp-plot-flag-paste (attrs)
+  (let* ((gap 0.3)
+         (flag-width (plist-get attrs :flag-width))
+         (reduced-width (* flag-width (sqrt (plist-get attrs :flag-paste-ratio))))
+         (paste-data (loop for pad-count from 1
+                           for width = (/ reduced-width pad-count)
+                           for gap = (* 0.3 (- pad-count 1))
+                           for total-width = (+ gap reduced-width)
+                           for edge-width = (- flag-width total-width)
+                           if (and (>= edge-width 0)
+                                   (<= width 1.4))
+                           return (list pad-count width edge-width)))
+         (paste-max (- (nth 0 paste-data) 1))
+         (paste-width (nth 1 paste-data))
+         (paste-pitch (+ paste-width gap))
+         (edge-width (nth 2 paste-data))
+         (paste-start (/ (- flag-width edge-width paste-width) 2))
+         (pastes (loop for x from 0 to paste-max
+                       for x-pos = (- (* x paste-pitch) paste-start)
+                       append
+                       (loop for y from 0 to paste-max
+                             for y-pos = (- (* y paste-pitch) paste-start)
+                             collect
+                             `(pad FLAG smd rect
+                                   (at ,x-pos ,y-pos)
+                                   (size ,paste-width ,paste-width)
+                                   (layers F.Cu F.Paste)
+                                   (zone_connect 0))))))
+    pastes))
+
 (defun fp-plot-flag (attrs)
   (let* ((via-width (- (plist-get attrs :flag-width) 0.15 0.15))
          (via-max (floor (/ via-width 1.2)))
@@ -101,8 +131,9 @@
                        (at 0 0)
                        (size ,(plist-get attrs :flag-width) ,(plist-get attrs :flag-width))
                        (layers F.Cu F.Mask)
-                       (zone_connect 0))))
-    (cons copper vias)))
+                       (zone_connect 0)))
+         (pastes (fp-plot-flag-paste attrs)))
+    (append (list copper) vias pastes)))
 
 (defun fp-qf-header (attrs)
   (let* ((font-data '((layer F.SilkS)
