@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# JUMPER
+#
+DEF JUMPER J 0 40 N N 1 F N
+F0 "J" 40 45 30 H V L CNN
+F1 "JUMPER" 0 -50 30 H V C CNN
+F2 "" 300 -250 60 H V C CNN
+F3 "" 300 -250 60 H V C CNN
+DRAW
+P 2 0 1 0  -20 0  -20 40 N
+P 2 0 1 0  -10 50  -10 20 N
+P 2 0 1 0  10 50  10 20 N
+P 2 0 1 0  20 0  20 40 N
+P 4 0 1 0  -30 20  -30 50  30 50  30 25 N
+X ~ 1 -50 0 30 R 50 50 1 1 P
+X ~ 2 50 0 30 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
