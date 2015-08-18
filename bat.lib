@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# BAT
+#
+DEF BAT J 0 40 Y Y 1 F N
+F0 "J" 75 50 60 H V L CNN
+F1 "BAT" 75 -50 60 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -30 -30 30 -10 0 1 0 F
+P 2 0 1 10  50 15  -50 15 N
+X ~ + 0 100 80 D 50 50 1 1 I
+X ~ - 0 -100 80 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
