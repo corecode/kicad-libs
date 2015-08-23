@@ -1,6 +1,6 @@
-(module SOT-23 (layer F.Cu) (tedit 55D8941C)
+(module SOT-23 (layer F.Cu) (tedit 55D9BD90)
   (fp_text reference SOT-23 (at 0 2.4) (layer F.SilkS)
-    (effects (font (size 0.81 0.81) (thickness 0.15)))
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 0.81 0.81) (thickness 0.15)))
