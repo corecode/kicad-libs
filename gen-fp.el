@@ -46,8 +46,7 @@
     `(pad ,(+ num 1) smd ,shape
           (at ,x ,y ,angle)
           (size ,pad-size-x ,pad-size-y)
-          (layers F.Cu F.Paste F.Mask)
-          (zone_connect 0))))
+          (layers F.Cu F.Paste F.Mask))))
 
 (defun fp-plot-corner (in-x in-y out-x out-y xo yo)
   `((fp_line (start ,(funcall xo out-x) ,(funcall yo in-y))
