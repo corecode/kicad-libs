@@ -1,0 +1,13 @@
+(module M3-LUG (layer F.Cu) (tedit 5640B1B6)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value M3-LUG (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 7 3.5) (end -7 3.5) (layer Margin) (width 0.1))
+  (fp_arc (start -7 0) (end -3.5 0) (angle 90) (layer Dwgs.User) (width 0.1))
+  (fp_arc (start 7 0) (end 3.5 0) (angle -90) (layer Dwgs.User) (width 0.1))
+  (fp_arc (start 0 0) (end -3.5 0) (angle 180) (layer Dwgs.User) (width 0.1))
+  (pad 1 thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+)
