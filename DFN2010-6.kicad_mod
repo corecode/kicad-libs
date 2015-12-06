@@ -1,10 +1,12 @@
 (module DFN2010-6 (layer F.Cu) (tedit 5654991D)
-  (fp_text reference REF** (at -1.65 0 90) (layer F.SilkS)
+  (fp_text reference REF** (at -1.7 0 90) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
   (fp_text value DFN2010-6 (at -3.65 -3) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_line (start 1.15 -0.5) (end 1.15 0.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.15 0.5) (end -1.15 -0.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -0.55 0.9) (end -1.15 0.3) (layer F.Fab) (width 0.1))
   (fp_line (start -0.65 0.9) (end -0.55 0.9) (layer F.Fab) (width 0.1))
   (fp_line (start -1.15 0.4) (end -0.65 0.9) (layer F.Fab) (width 0.1))
