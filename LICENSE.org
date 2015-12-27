@@ -1,0 +1,6 @@
+* License
+
+- All of the hardware description data are licensed under TAPR OHL,
+  see the file ~COPYING-TAPR~.
+- All of the included software are licensed under AGPL3 or later, see
+  the file ~COPYING-AGPL~.
