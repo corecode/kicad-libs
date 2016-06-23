@@ -1,5 +1,5 @@
-(module USB-MICRO-B-FCI-10103494 (layer F.Cu) (tedit 5759DD67)
-  (fp_text reference USB-MICRO-B-FCI-10103494 (at 0 -4.8) (layer F.SilkS)
+(module USB-MICRO-B-FCI-10103594 (layer F.Cu) (tedit 576C26A9)
+  (fp_text reference USB-MICRO-B-FCI-10103594 (at 0 -4.8) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
   (fp_text value VAL** (at -8.85 0.075) (layer F.SilkS) hide
