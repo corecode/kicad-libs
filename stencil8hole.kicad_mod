@@ -1,4 +1,6 @@
-(module stencil8hole (layer F.Cu) (tedit 58EB6771)
+(module stencil8hole (layer F.Cu) (tedit 592E2AA0)
+  (solder_paste_margin 0.0001)
+  (solder_paste_ratio -0.00000001)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
