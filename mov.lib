@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MOV
+#
+DEF MOV MOV 0 40 N N 1 F N
+F0 "MOV" 60 -120 50 H V L CNN
+F1 "MOV" 60 -190 50 H V L CNN
+F2 "" 135 -160 60 H V C CNN
+F3 "" 135 -160 60 H V C CNN
+DRAW
+T 0 -75 -115 50 0 0 0 v Normal 0 C C
+P 8 0 0 0 0 -30 40 -50 -40 -90 40 -130 -40 -170 40 -210 -40 -250 0 -270 N
+P 3 0 1 0 -75 -260 -75 -185 75 -35 N
+X ~ 1 0 0 30 D 50 50 1 1 P
+X ~ 2 0 -300 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
