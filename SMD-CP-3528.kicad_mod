@@ -1,4 +1,5 @@
-(module SMD-CP-3528 (layer F.Cu) (tedit 5582CD41)
+(module SMD-CP-3528 (layer F.Cu) (tedit 5C45E524)
+  (attr smd)
   (fp_text reference REF** (at 0 2.1) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )

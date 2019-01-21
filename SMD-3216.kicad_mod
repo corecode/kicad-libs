@@ -1,4 +1,5 @@
-(module SMD-3216 (layer F.Cu) (tedit 572B3995)
+(module SMD-3216 (layer F.Cu) (tedit 5C45E506)
+  (attr smd)
   (fp_text reference SMD-3216 (at 1.8 0 90) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
