@@ -1,4 +1,5 @@
-(module JST-ADH-2 (layer F.Cu) (tedit 59284310)
+(module JST-ADH-2 (layer F.Cu) (tedit 5C45E491)
+  (attr smd)
   (fp_text reference REF** (at 0 4) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )

@@ -1,4 +1,5 @@
-(module JST-ACH-4 (layer F.Cu) (tedit 592C8FAA)
+(module JST-ACH-4 (layer F.Cu) (tedit 5C45E487)
+  (attr smd)
   (fp_text reference REF** (at 0.25 5) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
