@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# chargepump-sc74
+#
+DEF chargepump-sc74 U 0 40 Y Y 1 F N
+F0 "U" 350 250 50 H V C CNN
+F1 "chargepump-sc74" 650 150 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+S -250 250 250 -350 0 1 0 N
+X VOUT 1 400 0 150 L 40 50 1 1 w
+X GND 2 0 -500 150 U 40 50 1 1 W
+X EN 3 -400 -200 150 R 40 50 1 1 I
+X C- 4 -100 400 150 D 40 50 1 1 P
+X VIN 5 -400 0 150 R 40 50 1 1 W
+X C+ 6 100 400 150 D 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
