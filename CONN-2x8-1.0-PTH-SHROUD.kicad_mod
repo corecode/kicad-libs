@@ -1,4 +1,4 @@
-(module CONN-2x8-1.0-PTH-SHROUD (layer F.Cu) (tedit 5BD71EE2)
+(module CONN-2x8-1.0-PTH-SHROUD (layer F.Cu) (tedit 5CD95DD0)
   (fp_text reference REF** (at 0 6.5) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
@@ -50,4 +50,9 @@
   (pad 14 thru_hole circle (at 6.35 -1.27) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 15 thru_hole circle (at 8.89 1.27) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 16 thru_hole circle (at 8.89 -1.27) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.step
+    (offset (xyz -8.890000000000001 -1.27 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

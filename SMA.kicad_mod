@@ -1,4 +1,4 @@
-(module SMA (layer F.Cu) (tedit 5BD9DEA0)
+(module SMA (layer F.Cu) (tedit 5CD95CA7)
   (fp_text reference REF** (at 0 2) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
@@ -22,4 +22,9 @@
   (fp_line (start 1 1.25) (end -1 1.25) (layer F.SilkS) (width 0.15))
   (pad C smd rect (at -2 0) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
   (pad A smd rect (at 2 0) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMA.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

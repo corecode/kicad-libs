@@ -1,6 +1,6 @@
 # created with (fp-draw (quote QFN-24-4x4))
 
-(module qfn-24-4x4 (layer F.Cu) (tedit 5AEA0925)
+(module qfn-24-4x4 (layer F.Cu) (tedit 5CD95793)
   (fp_text reference REF** (at 0 3.2) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
@@ -72,4 +72,9 @@
   (pad 22 smd oval (at -0.25 -2 90) (size 0.8 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 23 smd oval (at -0.75 -2 90) (size 0.8 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 24 smd oval (at -1.25 -2 90) (size 0.8 0.3) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
