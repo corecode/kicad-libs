@@ -1,4 +1,4 @@
-(module CONN-2x8-2.54-1.0-PTH (layer F.Cu) (tedit 5CDD4A83)
+(module CONN-2x8-2.54-1.0-PTH (layer F.Cu) (tedit 5CDDA993)
   (fp_text reference CONN-2x8 (at 0 3.27) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
@@ -42,8 +42,8 @@
   (pad 14 thru_hole circle (at 6.35 -1.27) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 15 thru_hole circle (at 8.89 1.27) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 16 thru_hole circle (at 8.89 -1.27) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x05_P2.54mm_Vertical.step
-    (offset (xyz 5.08 1.27 0))
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x08_P2.54mm_Vertical.step
+    (offset (xyz 8.890000000000001 1.27 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
