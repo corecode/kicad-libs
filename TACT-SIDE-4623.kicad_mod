@@ -1,4 +1,5 @@
-(module TACT-SIDE-4623 (layer F.Cu) (tedit 5CDAD5B3)
+(module TACT-SIDE-4623 (layer F.Cu) (tedit 5CE11153)
+  (attr smd)
   (fp_text reference REF** (at 0 2.75 180) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )

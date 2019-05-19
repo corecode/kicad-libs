@@ -1,4 +1,5 @@
-(module LED-RGB-SIDE-3215 (layer F.Cu) (tedit 5CDADD42)
+(module LED-RGB-SIDE-3215 (layer F.Cu) (tedit 5CE11138)
+  (attr smd)
   (fp_text reference REF** (at 0 -1.5 180) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )

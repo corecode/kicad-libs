@@ -1,6 +1,7 @@
 # created with (fp-draw (quote QFN-24-4x4))
 
-(module qfn-24-4x4 (layer F.Cu) (tedit 5CD95793)
+(module qfn-24-4x4 (layer F.Cu) (tedit 5CE11191)
+  (attr smd)
   (fp_text reference REF** (at 0 3.2) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
