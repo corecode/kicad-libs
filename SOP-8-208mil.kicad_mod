@@ -1,4 +1,5 @@
-(module SOP-8-208mil (layer F.Cu) (tedit 5D26ED1B)
+(module SOP-8-208mil (layer F.Cu) (tedit 5D32FB32)
+  (attr smd)
   (fp_text reference SOP-8-208mil (at 0 -3.5) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )

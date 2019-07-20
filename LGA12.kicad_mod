@@ -1,4 +1,5 @@
-(module LGA12 (layer F.Cu) (tedit 5D299A47)
+(module LGA12 (layer F.Cu) (tedit 5D32FB16)
+  (attr smd)
   (fp_text reference REF** (at 0 2.25) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
