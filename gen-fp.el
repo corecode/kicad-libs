@@ -126,7 +126,10 @@
 
 (defun fp-plot-flag (attrs)
   (let* ((via-width (- (plist-get attrs :flag-width) 0.5 0.5))
-         (via-max (floor (/ via-width 1.2)))
+         (via-max (plist-get attrs :via-max))
+         (via-max (if via-max
+                      (1- via-max)
+                    (floor (/ via-width 1.2))))
          (via-start (* (/ via-max 2.0) 1.2))
          (vias (loop for x from 0 to via-max
                      for xpos = (- (* x 1.2) via-start)
