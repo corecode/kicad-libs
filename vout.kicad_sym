@@ -1,0 +1,40 @@
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "VOUT" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0.254 0 0)
+      (effects (font (size 0.508 0.508)) hide)
+    )
+    (property "Value" "VOUT" (id 1) (at 0 1.524 0)
+      (effects (font (size 1.016 1.016)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (symbol "VOUT_0_1"
+      (polyline
+        (pts
+          (xy -0.762 0.762)
+          (xy 0.762 0.762)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 0.762)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "VOUT_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "VOUT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
