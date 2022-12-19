@@ -32,7 +32,7 @@
   (pad 10 smd roundrect (at 1.5 -1) (size 0.8 0.3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad FLAG smd roundrect (at 0 0) (size 1.7 2.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.05)
     (solder_paste_margin_ratio -0.12))
-  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm.step
+  (model ${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

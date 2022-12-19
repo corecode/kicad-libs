@@ -30,7 +30,7 @@
   (fp_line (start 1 1.3) (end -1 1.3) (layer F.Fab) (width 0.1))
   (pad A smd rect (at 0 -1.64) (size 1.22 0.92) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at 0 1.64) (size 1.22 0.92) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.step
+  (model ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

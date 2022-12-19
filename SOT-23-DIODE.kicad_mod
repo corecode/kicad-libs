@@ -33,7 +33,7 @@
   (pad A smd rect (at -0.95 1) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 0.95 1) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at 0 -1) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23.step
+  (model ${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

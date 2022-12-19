@@ -80,7 +80,7 @@
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (zone_connect 0))
   (pad 12 smd rect (at -0.25 -0.75 90) (size 0.375 0.35) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (zone_connect 0))
-  (model ${KISYS3DMOD}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.step
+  (model ${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

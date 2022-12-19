@@ -73,7 +73,7 @@
   (pad 23 smd rect (at 4.445 25.01 90) (size 2 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 24 smd rect (at 5.715 25.01 90) (size 2 0.9) (layers F.Cu F.Paste F.Mask))
   (pad FLAG smd rect (at -1 15) (size 5 5) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/RF_Module.3dshapes/ESP32-WROOM-32.step
+  (model ${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32.step
     (offset (xyz 0 -15.72 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

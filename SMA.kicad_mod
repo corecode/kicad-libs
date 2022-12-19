@@ -22,7 +22,7 @@
   (fp_line (start 1 1.25) (end -1 1.25) (layer F.SilkS) (width 0.15))
   (pad C smd rect (at -2 0) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
   (pad A smd rect (at 2 0) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMA.step
+  (model ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

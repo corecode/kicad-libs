@@ -59,7 +59,7 @@
     (primitives
       (gr_line (start 0 0) (end 0 -0.6) (width 0.3))
     ))
-  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0603_1608Metric.step
+  (model ${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 0.5))
     (rotate (xyz 0 0 0))

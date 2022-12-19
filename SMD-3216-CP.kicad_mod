@@ -23,7 +23,7 @@
   (fp_line (start -0.8 -2.4) (end 0.8 -2.4) (layer F.SilkS) (width 0.2))
   (pad + smd rect (at 0 -1.5) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
   (pad - smd rect (at 0 1.5) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3216-18_Kemet-A.step
+  (model ${KICAD6_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3216-18_Kemet-A.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
