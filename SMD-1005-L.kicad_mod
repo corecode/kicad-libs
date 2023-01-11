@@ -22,8 +22,8 @@
   (fp_line (start -0.5 -0.95) (end 0.5 -0.95) (layer "F.Fab") (width 0.1) (tstamp 7b2de119-9cad-4caa-a36b-b67a3660a5d9))
   (fp_line (start 0.5 0.95) (end -0.5 0.95) (layer "F.Fab") (width 0.1) (tstamp 9a135537-8ed0-4bf0-96e8-d9bbff66e842))
   (fp_line (start -0.5 0.95) (end -0.5 -0.95) (layer "F.Fab") (width 0.1) (tstamp a76eac23-4532-4784-8d57-87752baba80d))
-  (pad "1" smd rect (at 0 -0.5) (size 0.65 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 64510d1a-547f-4ef0-b313-ef655621be6d))
-  (pad "2" smd rect (at 0 0.5) (size 0.65 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0ef239c3-f00a-4ea6-8b68-879795d9b46a))
+  (pad "1" smd roundrect (at 0 -0.5) (size 0.65 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 64510d1a-547f-4ef0-b313-ef655621be6d))
+  (pad "2" smd roundrect (at 0 0.5) (size 0.65 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0ef239c3-f00a-4ea6-8b68-879795d9b46a))
   (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

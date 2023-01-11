@@ -3,7 +3,7 @@
   (tedit 0)
   (attr smd)
   (fp_text reference "REF**" (at -3 0 90 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.75) (thickness 0.15)))
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
     (tstamp 9b11f43d-ae96-4f54-ae36-aa292bb2cabc)
   )
   (fp_text value "U.FL" (at 0 0 unlocked) (layer "F.SilkS") hide
@@ -25,9 +25,9 @@
   (fp_line (start -2.25 -1.75) (end 2.25 -1.75) (layer "F.Fab") (width 0.1) (tstamp 5d9fd966-c76b-4b61-bd08-7566b7f8205e))
   (fp_line (start -2.25 2.5) (end -2.25 -1.75) (layer "F.Fab") (width 0.1) (tstamp e2ecdb24-0f71-4fe2-8271-c20a07699890))
   (fp_line (start 2.25 -1.75) (end 2.25 2.5) (layer "F.Fab") (width 0.1) (tstamp f2e9c719-ae91-43ea-921a-6593a9fb3a59))
-  (pad "GND" smd rect (at 1.475 0) (size 1.05 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5f727ea8-9bd3-4e5c-8964-cad07ce022a9))
-  (pad "GND" smd rect (at -1.475 0) (size 1.05 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 83bd85a2-e9d8-4881-92d9-a6164febaeda))
-  (pad "SIG" smd rect (at 0 1.55) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 41bee3ed-8354-4b02-a2ad-e137319f51ae))
+  (pad "GND" smd roundrect (at 1.475 0) (size 1.05 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2380952381) (tstamp 5f727ea8-9bd3-4e5c-8964-cad07ce022a9))
+  (pad "GND" smd roundrect (at -1.475 0) (size 1.05 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2380952381) (tstamp 83bd85a2-e9d8-4881-92d9-a6164febaeda))
+  (pad "SIG" smd roundrect (at 0 1.55) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 41bee3ed-8354-4b02-a2ad-e137319f51ae))
   (model "${KICAD6_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
